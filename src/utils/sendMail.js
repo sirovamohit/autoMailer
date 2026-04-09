@@ -1,4 +1,5 @@
 const nodemailer = require("nodemailer");
+const path = require("path");
 
 // --------- CONFIGURE YOUR TRANSPORTER ----------
 const transporter = nodemailer.createTransport({
@@ -50,7 +51,7 @@ https://www.linkedin.com/in/mohit-sirova-646a71209/
     attachments: [
       {
         filename: "Mohit_Sirova.pdf",
-        path: "./Mohit's Resume.pdf",
+        path: path.join(__dirname, "../../Mohit's Resume.pdf"),
       },
     ],
   };
