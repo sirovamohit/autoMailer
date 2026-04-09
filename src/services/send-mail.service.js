@@ -2,7 +2,7 @@ const axios = require("axios");
 const XLSX = require("xlsx");
 const { sendApplicationEmail } = require("../utils/sendMail");
 const { google } = require("googleapis");
-const keys = require("../../service-key.json");
+const keys = JSON.parse(process.env.SERVICE_KEY);
 
 async function clearSheet() {
   const auth = new google.auth.GoogleAuth({
