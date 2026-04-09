@@ -1,0 +1,23 @@
+{
+  "name": "job-mail-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "prod": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.13.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "googleapis": "^171.4.0",
+    "node-cron": "^4.2.1",
+    "nodemailer": "^7.0.11",
+    "xlsx": "^0.18.5"
+  }
+}
