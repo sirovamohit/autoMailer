@@ -25,7 +25,7 @@ I hope you're doing well! I came across your profile and noticed you're working 
 
 I'm Mohit Sirova, a Backend Engineer with 3 years of experience building scalable, high-performance systems. Here's a quick snapshot of what I bring:
 
-• Currently a Lead Engineer at OfficeBanao, where I built a warehouse management system that pushed inventory accuracy to 99.2% and cut tax-filing delays by 90% via SAP & ClearTax integrations.
+• Currently a Software Engineer at OfficeBanao, where I built a warehouse management system that pushed inventory accuracy to 99.2% and cut tax-filing delays by 90% via SAP & ClearTax integrations.
 
 • At Cardekho, I engineered a real-time bidding platform handling 10K+ concurrent users with <200ms WebSocket latency and a Redis pipeline processing 15K+ operations/sec.
 
